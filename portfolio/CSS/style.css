@@ -1,0 +1,58 @@
+.BGimage{
+    height: 100vh;
+    background: url(/images/backg.jpg);
+    background-size:cover;
+    position: relative;
+}
+.container{
+    height: 100vh;
+}
+.nav-link:hover{
+    
+    background-color:rgb(122, 118, 118);
+}
+.navbar-brand{
+    color:black;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.nav-link{
+    color:black;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.bannerText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform:translate(-50%,-50%);
+    color:black;
+
+}
+.bannerTitle{
+    font-size: 40px;
+}
+.bannerDesc{
+    font-size: 30px;
+   
+}
+.img-fluid:hover{
+    border: 2px solid rgb(82, 78, 78);
+    cursor: pointer;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(229, 229, 236);
+    border: 2px solid rgb(82, 78, 78);
+}
+#Services{
+    height: 80vh;
+}
+#achievements{
+    height: 60vh;
+}
